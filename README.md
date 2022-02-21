@@ -38,3 +38,7 @@
       $ npm run dev
 
     Proje http://localhost:8080 linkinden ulaşılabilir halde başlamıştır.
+    
+    Docker
+
+    docker-compose up -d
