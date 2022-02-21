@@ -26,14 +26,14 @@
         En son olarak giriş yapabilmek için user oluşturulmalı.
 
       $ python manage.py createsuperuser
-      > Username (leave blank to use <'yourusername'>): arge
+      > Username (leave blank to use <'yourusername'>): username
       > Email address: isim@gmail.com
       > Password: <'yourpassword'>
       > Password (again): <'yourpassword'>
 
     Frontend kısmını ayağa kaldırmak için aşağıdaki adımları izleyiniz.
 
-      $ cd frontend/project
+      $ cd frontend/
       $ npm install
       $ npm run dev
 
