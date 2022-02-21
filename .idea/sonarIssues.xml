@@ -344,6 +344,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/Projects/mssp/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/Projects/mssp/authentication/models.py">
           <value>
             <set />
@@ -365,6 +370,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
           <value>
             <set />
           </value>
@@ -405,6 +420,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/djangoProject/urls.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/Dockerfile">
           <value>
             <set />
           </value>
@@ -545,6 +570,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/frontend/project/vue.config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/requirements.txt">
           <value>
             <set />
           </value>

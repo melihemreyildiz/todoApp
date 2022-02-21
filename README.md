@@ -38,5 +38,3 @@
       $ npm run dev
 
     Proje http://localhost:8080 linkinden ulaşılabilir halde başlamıştır.
-
-    
