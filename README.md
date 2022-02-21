@@ -10,7 +10,8 @@
     Python proje bağımlılıkları kurulmalı:
 
       $ cd djangoProject
-      $ venv/bin/pip install -r requirements.txt
+      $ source venv/bin/activate
+      $pip install -r requirements.txt
 
     API projesini ayağa kaldırmak için aşağıdaki adımları izleyiniz.
         Veritabanı yoksa oluşturulmalı
@@ -26,7 +27,7 @@
 
       $ python manage.py createsuperuser
       > Username (leave blank to use <'yourusername'>): arge
-      > Email address: arge@barikat.com.tr
+      > Email address: isim@gmail.com
       > Password: <'yourpassword'>
       > Password (again): <'yourpassword'>
 
