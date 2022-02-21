@@ -1,11 +1,8 @@
-from django.shortcuts import render
 from rest_framework import generics
 from .models import Groups, ToDos
 from rest_framework.permissions import IsAuthenticated
-from rest_framework.generics import get_object_or_404
 from .serializers import GroupSerializer, TodosSerializer,TodoReadSerializer
-from authentication.models import User
-from rest_framework.exceptions import ValidationError
+from rest_framework import filters
 
 
 class GroupGenerate(generics.ListCreateAPIView):
@@ -35,6 +32,8 @@ class TodoGenerate(generics.ListCreateAPIView):
     serializer_class = TodosSerializer
     permission_classes = [IsAuthenticated]
     read_serializer_class = TodoReadSerializer
+    filter_backends = [filters.SearchFilter]
+    search_fields = ['groups__title', 'priority', 'due_date']
 
     def get_serializer_class(self):
         read_serializer_class = getattr(self, 'read_serializer_class', None)

@@ -8,6 +8,9 @@
         ToDo Olustur
       </button>
     </div>
+    <div class="input-group col-8 mt-2">
+      <input v-model="keyword" type="text" class="form-control" placeholder="Search by Group or Priority or Due Date">
+    </div>
     <div class="modal fade bd-example-modal-xl" id="exampleModalCenter" tabindex="-1" role="dialog"
          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
@@ -90,8 +93,12 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button v-if="!popUp" type="button" class="btn btn-secondary" data-dismiss="modal" @click="clearToDO">Close</button>
-            <button v-if="popUp" type="button" class="btn btn-secondary" data-dismiss="modal" @click="deleteToDo(task)">Delete</button>
+            <button v-if="!popUp" type="button" class="btn btn-secondary" data-dismiss="modal" @click="clearToDO">
+              Close
+            </button>
+            <button v-if="popUp" type="button" class="btn btn-secondary" data-dismiss="modal" @click="deleteToDo(task)">
+              Delete
+            </button>
             <button v-if="!popUp" type="button" class="btn btn-primary" @click="saveToDO">Save changes</button>
             <button v-if="popUp" type="button" class="btn btn-primary" @click="updateToDo(task)">Update</button>
           </div>
@@ -121,12 +128,12 @@
         <td>
           {{ task.groups.title }}
         </td>
-         <td>
-              {{ task.is_active ? 'Devam Ediyor' : 'Pasif'}}
+        <td>
+          {{ task.is_active ? 'Devam Ediyor' : 'Pasif' }}
         </td>
         <td>
             <span :class="{ 'line-through': task.completed === true }">
-               {{ task.completed ? 'Tamamlandı' : 'Devam Ediyor'}}
+               {{ task.completed ? 'Tamamlandı' : 'Devam Ediyor' }}
             </span>
         </td>
         <td>
@@ -136,11 +143,11 @@
           {{ task.due_date }}
         </td>
         <td>
-            <div class="d-flex">
-              <button class="btn btn-outline-info mr-1" @click="update(task)">
-                    Operations
-                </button>
-            </div>
+          <div class="d-flex">
+            <button class="btn btn-outline-info mr-1" @click="update(task)">
+              Operations
+            </button>
+          </div>
         </td>
       </tr>
       </tbody>
@@ -167,12 +174,20 @@ export default {
         due_date: null,
         groups: -1,
       },
+      keyword: '',
       editedTask: null,
       options: [],
       value: '',
       todoList: [],
       popUp: false,
     };
+  },
+  watch: {
+    keyword(newKeyword, oldKeyword) {
+      if (newKeyword !== oldKeyword) {
+        this.getAllTodos(newKeyword)
+      }
+    }
   },
   created() {
     this.getAllGroups()
@@ -184,33 +199,41 @@ export default {
         this.options = r.data.results
       })
     },
-    getAllTodos() {
-      axios.get('/todos/todo/').then(r => {
+    getAllTodos(search_query = '') {
+      if (search_query === '') {
+        axios.get('/todos/todo/').then(r => {
         this.todoList = r.data.results
-      })
+       })
+      } else {
+        axios.get(`/todos/todo/?search=${search_query}`).then((r) => {
+                this.todoList = r.data.results
+            })
+      }
+
     },
     capitalizeFirstChar(str) {
       return str.charAt(0).toUpperCase() + str.slice(1);
     },
-    update (v) {
+    update(v) {
       $('#exampleModalCenter').modal('toggle')
       this.task = {...v}
       this.popUp = true
     },
-    updateToDo (s) {
-       this.task.groups = this.task.groups.id
-       axios.put(`/todos/todo/${s.id}/`,this.task).then(r=> {
+    updateToDo(s) {
+      this.task.groups = this.task.groups.id
+      axios.put(`/todos/todo/${s.id}/`, this.task).then(r => {
+        this.getAllTodos()
         Vue.notify({
           type: 'success',
           title: 'Başarılı',
           text: 'Başarıyla güncellediniz!',
         });
       })
-      this.getAllTodos()
+      $('#exampleModalCenter').modal('hide')
     },
-    deleteToDo (s) {
-       this.task.groups = this.task.groups.id
-       axios.delete(`/todos/todo/${s.id}/`).then(r=> {
+    deleteToDo(s) {
+      this.task.groups = this.task.groups.id
+      axios.delete(`/todos/todo/${s.id}/`).then(r => {
         Vue.notify({
           type: 'success',
           title: 'Başarılı',
@@ -231,7 +254,7 @@ export default {
       })
       this.clearToDO()
     },
-    clearToDO () {
+    clearToDO() {
       this.task = {
         title: '',
         isActive: true,
