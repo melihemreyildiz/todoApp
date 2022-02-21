@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/GridCellEditorTextField">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Python Console">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/Offensify/offensify/frontend/src/pages/adminpanel/orders.vue">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-C" />
+                <option name="line" value="66" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I97" />
+                <option name="line" value="282" />
+                <option name="message" value="Update this function so that its implementation is not identical to the one on line 258." />
+                <option name="ruleKey" value="typescript:S4144" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-W" />
+                <option name="line" value="167" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="Web:AvoidCommentedOutCodeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-R" />
+                <option name="line" value="136" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I93" />
+                <option name="line" value="224" />
+                <option name="message" value="Rename this parameter &quot;search_query&quot; to match the regular expression ^[_$A-Za-z][$A-Za-z0-9]*$|^[_$A-Z][_$A-Z0-9]+$." />
+                <option name="ruleKey" value="typescript:S117" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-O" />
+                <option name="line" value="133" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-F" />
+                <option name="line" value="112" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I90" />
+                <option name="line" value="112" />
+                <option name="message" value="This line has a length of 189. Maximum allowed is 180." />
+                <option name="ruleKey" value="typescript:S103" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-K" />
+                <option name="line" value="129" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-B" />
+                <option name="line" value="61" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-G" />
+                <option name="line" value="116" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I91" />
+                <option name="line" value="116" />
+                <option name="message" value="This line has a length of 186. Maximum allowed is 180." />
+                <option name="ruleKey" value="typescript:S103" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I9-" />
+                <option name="line" value="328" />
+                <option name="message" value="Unexpected string concatenation." />
+                <option name="ruleKey" value="typescript:S3512" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I95" />
+                <option name="line" value="236" />
+                <option name="message" value="Update this function so that its implementation is not identical to the one on line 226." />
+                <option name="ruleKey" value="typescript:S4144" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-A" />
+                <option name="line" value="51" />
+                <option name="message" value="Replace this &lt;b&gt; tag by &lt;strong&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I99" />
+                <option name="line" value="305" />
+                <option name="message" value="Update this function so that its implementation is not identical to the one on line 258." />
+                <option name="ruleKey" value="typescript:S4144" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I9y" />
+                <option name="line" value="102" />
+                <option name="message" value="This line has a length of 198. Maximum allowed is 180." />
+                <option name="ruleKey" value="typescript:S103" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-D" />
+                <option name="line" value="102" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-S" />
+                <option name="line" value="137" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I9z" />
+                <option name="line" value="107" />
+                <option name="message" value="This line has a length of 187. Maximum allowed is 180." />
+                <option name="ruleKey" value="typescript:S103" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-E" />
+                <option name="line" value="107" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-P" />
+                <option name="line" value="134" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-X" />
+                <option name="line" value="168" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="Web:AvoidCommentedOutCodeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-I" />
+                <option name="line" value="125" />
+                <option name="message" value="Add a description to this table." />
+                <option name="ruleKey" value="Web:TableWithoutCaptionCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I9_" />
+                <option name="line" value="331" />
+                <option name="message" value="This line has 2 statements. Maximum allowed is 1." />
+                <option name="ruleKey" value="typescript:S122" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-J" />
+                <option name="line" value="128" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-N" />
+                <option name="line" value="132" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-Q" />
+                <option name="line" value="135" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-H" />
+                <option name="line" value="120" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I92" />
+                <option name="line" value="120" />
+                <option name="message" value="This line has a length of 182. Maximum allowed is 180." />
+                <option name="ruleKey" value="typescript:S103" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-L" />
+                <option name="line" value="130" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I94" />
+                <option name="line" value="226" />
+                <option name="message" value="Define a constant instead of duplicating this literal 9 times." />
+                <option name="ruleKey" value="typescript:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I96" />
+                <option name="line" value="270" />
+                <option name="message" value="Update this function so that its implementation is not identical to the one on line 258." />
+                <option name="ruleKey" value="typescript:S4144" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I98" />
+                <option name="line" value="293" />
+                <option name="message" value="Update this function so that its implementation is not identical to the one on line 258." />
+                <option name="ruleKey" value="typescript:S4144" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-Y" />
+                <option name="line" value="169" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="Web:AvoidCommentedOutCodeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-U" />
+                <option name="line" value="155" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-T" />
+                <option name="line" value="138" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I9x" />
+                <option name="line" value="386" />
+                <option name="message" value="Unexpected empty source" />
+                <option name="ruleKey" value="css:S4667" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-M" />
+                <option name="line" value="131" />
+                <option name="message" value="Add either an 'id' or a 'scope' attribute to this &lt;th&gt; tag." />
+                <option name="ruleKey" value="Web:TableHeaderHasIdOrScopeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AX4ftFuq8ExpRQ-H3I-V" />
+                <option name="line" value="160" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="Web:AvoidCommentedOutCodeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/Offensify/offensify/frontend/src/pages/adminpanel/products.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/mssp/authentication/models.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/mssp/authentication/serializers.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/mssp/frontend/src/router/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/mssp/hr/views.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/authentication/__init__.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/authentication/models.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/authentication/serializers.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/authentication/urls.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/authentication/views.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/djangoProject/paginations.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/djangoProject/settings.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/djangoProject/urls.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/package-lock.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/babel.config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/package-lock.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/public/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/App.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/components/Header.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/components/HelloWorld.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/components/todo.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/main.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/pages/About.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/pages/Homepage.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/pages/auth/Auth.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/plugins/notify.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/router.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/router/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/store.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/store/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/views/AboutView.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/views/Auth.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/views/Groups.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/views/HomePage.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/views/HomeView.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/views/NewToDo.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/src/views/ToDo.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/project/vue.config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo/admin.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo/models.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo/serializers.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo/urls.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo/views.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
