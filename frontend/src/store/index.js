@@ -65,7 +65,7 @@ export default new Vuex.Store({
             })
         },
         register({dispatch},authData){
-            let authLink = "/api/register/"
+            let authLink = "api/authentication/register/"
             return axios.post(authLink,{email: authData.email,first_name: authData.firstName,
                 last_name: authData.lastName,password: authData.password,
                 password2:authData.password2

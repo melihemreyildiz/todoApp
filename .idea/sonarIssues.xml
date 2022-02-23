@@ -369,6 +369,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/Projects/tr-offensify/project/templates/ordersuccses.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <set />
@@ -570,6 +575,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/frontend/project/vue.config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/store/index.js">
           <value>
             <set />
           </value>
