@@ -584,6 +584,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/views/Groups.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/frontend/src/views/ToDo.vue">
           <value>
             <set />

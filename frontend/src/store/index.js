@@ -48,7 +48,7 @@ export default new Vuex.Store({
             }
         },
         login({commit, dispatch, state}, authData) {
-            let authLink = "/api/authentication/login/"
+            let authLink = "api/authentication/login/"
             return axios.post(
                 authLink ,
                 {email: authData.email, password: authData.password}
