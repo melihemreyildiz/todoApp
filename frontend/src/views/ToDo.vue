@@ -201,11 +201,11 @@ export default {
     },
     getAllTodos(search_query = '') {
       if (search_query === '') {
-        axios.get('todos/todo/').then(r => {
+        axios.get('/todos/todo/').then(r => {
         this.todoList = r.data.results
        })
       } else {
-        axios.get(`todos/todo/?search=${search_query}`).then((r) => {
+        axios.get(`/todos/todo/?search=${search_query}`).then((r) => {
                 this.todoList = r.data.results
             })
       }
@@ -221,7 +221,7 @@ export default {
     },
     updateToDo(s) {
       this.task.groups = this.task.groups.id
-      axios.put(`todos/todo/${s.id}/`, this.task).then(r => {
+      axios.put(`/todos/todo/${s.id}/`, this.task).then(r => {
         this.getAllTodos()
         Vue.notify({
           type: 'success',
@@ -233,7 +233,7 @@ export default {
     },
     deleteToDo(s) {
       this.task.groups = this.task.groups.id
-      axios.delete(`todos/todo/${s.id}/`).then(r => {
+      axios.delete(`/todos/todo/${s.id}/`).then(r => {
         Vue.notify({
           type: 'success',
           title: 'Başarılı',
@@ -244,7 +244,7 @@ export default {
     },
     saveToDO() {
       this.task.groups = this.task.groups.id
-      axios.post('todos/todo/', this.task).then(r => {
+      axios.post('/todos/todo/', this.task).then(r => {
         this.getAllTodos()
         Vue.notify({
           type: 'success',

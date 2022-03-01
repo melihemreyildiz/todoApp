@@ -78,7 +78,7 @@ export default {
     },
     submitTask() {
       if (this.title === 0) return;
-      axios.post('todos/groups/', {'title': this.title}).then(r=> {
+      axios.post('/todos/groups/', {'title': this.title}).then(r=> {
         Vue.notify({
                 type: 'success',
                 title: 'Başarılı',
@@ -88,7 +88,7 @@ export default {
       this.getAllGroups()
     },
     getAllGroups() {
-      axios.get('todos/groups/').then( r => {
+      axios.get('/todos/groups/').then( r => {
         this.groups = r.data.results
       })
     },
@@ -97,7 +97,7 @@ export default {
       this.update = true
     },
     updateValue () {
-      axios.put(`todos/groups/${this.group.id}/`,{'title': this.group.title}).then(r=> {
+      axios.put(`/todos/groups/${this.group.id}/`,{'title': this.group.title}).then(r=> {
         Vue.notify({
                 type: 'success',
                 title: 'Başarılı',
@@ -107,7 +107,7 @@ export default {
       })
     },
     deleteGroup(group) {
-      axios.delete(`todos/groups/${group.id}/`).then(r=> {
+      axios.delete(`/todos/groups/${group.id}/`).then(r=> {
         Vue.notify({
                 type: 'success',
                 title: 'Başarılı',

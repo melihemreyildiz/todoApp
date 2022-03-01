@@ -20,6 +20,6 @@ urlpatterns = [
          TokenRefreshView.as_view(),
          name='token_refresh'),
     path('authentication/me/', MeAPIView.as_view(), name='me'),
-    path("authentication/register/", RegisterView.as_view(), name="register"),
+    path('authentication/register/', RegisterView.as_view(), name="register"),
     path('authentication/users/', UserViewSet.as_view(), name='users')
 ]

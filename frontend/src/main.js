@@ -5,7 +5,7 @@ import store from './store'
 import axios from 'axios'
 import Notifications from 'vue-notification'
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000/'
+axios.defaults.baseURL = 'http://127.0.0.1:8000'
 Vue.config.productionTip = false
 
 Vue.use(Notifications)
